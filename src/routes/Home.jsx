@@ -25,7 +25,7 @@ const Home = () => {
         }}>
         <h1>A Prototype System for AML Digital Twins (PS-AML-DT)</h1>
         <button
-          style={{ color: "#fff", width: "10%" }}
+          style={{ color: "#fff", width: "10rem" }}
           onClick={contactButtonHandler}>
           Contact us
         </button>
