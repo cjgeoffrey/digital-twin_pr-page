@@ -11,17 +11,19 @@ const News = () => {
           paddingTop: "2rem",
           color: "#fff",
         }}>
-        <h3>News</h3>
-        <p>Start of the project at the 1st January 2023.</p>
-        <p>
-          Press release of Tampere University{" "}
-          <a
-            style={{ color: "#fff", textDecoration: "underline" }}
-            href="https://www.tuni.fi/en/news/supporting-personalised-and-preventive-medicine-first-acute-myeloid-leukaemia-digital-twin"
-            target="_blank">
-            TUNI article
-          </a>
-        </p>
+        <h2>News</h2>
+        <ul style={{ padding: "0 1rem" }}>
+          <li>Start of the project at the 1st January 2023.</li>
+          <li>
+            Press release of Tampere University{" "}
+            <a
+              style={{ color: "#fff", textDecoration: "underline" }}
+              href="https://www.tuni.fi/en/news/supporting-personalised-and-preventive-medicine-first-acute-myeloid-leukaemia-digital-twin"
+              target="_blank">
+              TUNI article
+            </a>
+          </li>
+        </ul>
       </div>
     </ContentContainer>
   );

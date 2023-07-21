@@ -96,19 +96,27 @@ const Consortium = () => {
           paddingTop: "2rem",
           color: "#fff",
         }}>
-        <h2>Consortium</h2>
-        <p style={{ lineHeight: "2rem" }}>
-          The PS-AML-DT consortium is a project conducted jointly with
-          clinician-scientists and computational researchers. The team consists
-          of members from the Institute for Molecular Medicine Finland at the
-          University of Helsinki (Finland), the Institute for Systems Biology in
-          Seattle (USA) and Tampere University (Finland).
-        </p>
         <div>
-          <ul style={{ padding: 0, listStyleType: "none" }}>
-            <h3>Team:</h3>
-            {membersOfConsortium}
-          </ul>
+          <h2>Consortium</h2>
+          <p style={{ lineHeight: "1.5rem" }}>
+            The PS-AML-DT consortium is a project conducted jointly with
+            clinician-scientists and computational researchers. The team
+            consists of members from the Institute for Molecular Medicine
+            Finland at the University of Helsinki (Finland), the Institute for
+            Systems Biology in Seattle (USA) and Tampere University (Finland).
+          </p>
+        </div>
+        <div>
+          <h2>Funding</h2>
+          <p style={{ lineHeight: "1.5rem" }}>
+            The PS-AML-DT is a part of the AKA-NIH Partnership Programme
+            launched in November 2020 and funded by the National Institute of
+            Health (NIH, USA) and the Academy of Finland.
+          </p>
+        </div>
+        <div>
+          <h2>Team:</h2>
+          <ul style={{ padding: "0 1rem" }}>{membersOfConsortium}</ul>
         </div>
       </div>
     </ContentContainer>
