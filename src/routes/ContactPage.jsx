@@ -6,7 +6,7 @@ const ContactPage = () => {
     <ContentContainer id="contact">
       <div
         style={{
-          width: "90%",
+          maxWidth: "60%",
           margin: "0 auto",
           paddingTop: "2rem",
           color: "#fff",

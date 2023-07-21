@@ -7,7 +7,7 @@ const Publications = () => {
       {" "}
       <div
         style={{
-          width: "90%",
+          maxWidth: "60%",
           margin: "0 auto",
           paddingTop: "2rem",
           color: "#fff",
@@ -16,7 +16,6 @@ const Publications = () => {
         <p>
           1. The concept of Digital Twin:{" "}
           <a
-            style={{ color: "#fff", textDecoration: "underline" }}
             href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9653941/"
             target="_blank">
             Link

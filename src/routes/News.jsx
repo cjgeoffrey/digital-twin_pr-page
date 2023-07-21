@@ -6,14 +6,15 @@ const News = () => {
     <ContentContainer id="news">
       <div
         style={{
-          width: "90%",
+          maxWidth: "60%",
           margin: "0 auto",
           paddingTop: "2rem",
           color: "#fff",
         }}>
-        <h3>Visit here for up to date news about our project</h3>
+        <h3>News</h3>
+        <p>Start of the project at the 1st January 2023.</p>
         <p>
-          1. A brief article elaborating our research can be found here:{" "}
+          Press release of Tampere University{" "}
           <a
             style={{ color: "#fff", textDecoration: "underline" }}
             href="https://www.tuni.fi/en/news/supporting-personalised-and-preventive-medicine-first-acute-myeloid-leukaemia-digital-twin"
