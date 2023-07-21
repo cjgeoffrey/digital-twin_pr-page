@@ -14,13 +14,14 @@ const Home = () => {
         id="home"
         style={{
           display: "flex",
-          width: "95%",
+          maxWidth: "80%",
           height: "90vh",
           margin: "0 auto",
           padding: "0",
           alignItems: "center",
           justifyContent: "center",
           flexDirection: "column",
+          textAlign: "center",
         }}>
         <h1>A Prototype System for AML Digital Twins (PS-AML-DT)</h1>
         <button
