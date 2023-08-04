@@ -24,22 +24,7 @@ const Publications = () => {
       <div className="body-text">
         <h2>Publications</h2>
 
-        <ol style={{ padding: "0 1rem" }}>
-          {listOfPublications}
-
-          {/* <PublicationLinks
-            title={
-              "What Is a Digital Twin? Experimental Design for a Data-Centric Machine Learning Perspective in Health"
-            }
-            link={"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9653941/"}
-            linkDetail={"To Page"}
-          />
-          <a
-            href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9653941/"
-            target="_blank">
-            Link
-          </a> */}
-        </ol>
+        <ol style={{ padding: "0 1rem" }}>{listOfPublications}</ol>
       </div>
     </ContentContainer>
   );

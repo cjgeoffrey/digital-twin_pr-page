@@ -1,13 +1,16 @@
 import React from "react";
 
-const ConsortiumLinks = ({ name, link, linkDetail }) => {
+const ConsortiumLinks = ({ name, link, institution }) => {
   return (
     <>
       <li>
-        {name}{" "}
-        <a href={link} target="_blank">
-          {linkDetail}
-        </a>
+        <p>
+          <a href={link} target="_blank">
+            {name}
+          </a>
+          {", "}
+          {institution}
+        </p>
       </li>
     </>
   );

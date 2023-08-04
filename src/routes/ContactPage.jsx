@@ -6,10 +6,10 @@ const ContactPage = () => {
     <ContentContainer id="contact">
       <div className="body-text">
         <h3>Contact Us</h3>
-        <address>
+        <p>
           Tampere University,
           <br /> Hervanta Campus, <br /> 33720 Tampere, <br /> Finland
-        </address>
+        </p>
       </div>
     </ContentContainer>
   );

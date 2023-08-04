@@ -11,7 +11,6 @@ const News = () => {
           <li>
             Press release of Tampere University{" "}
             <a
-              style={{ color: "#fff", textDecoration: "underline" }}
               href="https://www.tuni.fi/en/news/supporting-personalised-and-preventive-medicine-first-acute-myeloid-leukaemia-digital-twin"
               target="_blank">
               TUNI article

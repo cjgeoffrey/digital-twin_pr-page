@@ -11,7 +11,7 @@ const Consortium = () => {
         <ConsortiumLinks
           name={person.name}
           link={person.link}
-          linkDetail={person.linkDetail}
+          institution={person.institution}
         />
       </div>
     );
@@ -42,7 +42,7 @@ const Consortium = () => {
         </div>
         <div>
           <h2>Team:</h2>
-          <ul style={{ padding: "0 1rem" }}>{membersOfConsortium}</ul>
+          <ul>{membersOfConsortium}</ul>
         </div>
       </div>
     </ContentContainer>
