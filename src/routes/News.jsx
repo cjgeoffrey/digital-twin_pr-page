@@ -4,13 +4,7 @@ import ContentContainer from "../shared/cards/ContentContainer";
 const News = () => {
   return (
     <ContentContainer id="news">
-      <div
-        style={{
-          maxWidth: "60%",
-          margin: "0 auto",
-          paddingTop: "2rem",
-          color: "#fff",
-        }}>
+      <div className="body-text">
         <h2>News</h2>
         <ul style={{ padding: "0 1rem" }}>
           <li>Start of the project at the 1st January 2023.</li>

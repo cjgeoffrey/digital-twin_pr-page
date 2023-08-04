@@ -1,16 +1,10 @@
 import React from "react";
 import ContentContainer from "../shared/cards/ContentContainer";
 
-const Concept = () => {
+const Approach = () => {
   return (
     <ContentContainer id="concept">
-      <div
-        style={{
-          maxWidth: "60%",
-          margin: "0 auto",
-          paddingTop: "2rem",
-          color: "#fff",
-        }}>
+      <div className="body-text">
         <h2>Our Approach</h2>
         <p>
           Acute myeloid leukemia (AML) represents an aggressive form of cancer
@@ -33,4 +27,4 @@ const Concept = () => {
   );
 };
 
-export default Concept;
+export default Approach;

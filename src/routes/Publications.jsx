@@ -13,6 +13,7 @@ const Publications = () => {
           title={publication.title}
           link={publication.link}
           linkDetail={publication.linkDetail}
+          citation={publication.citation}
         />
       </div>
     );
@@ -20,13 +21,7 @@ const Publications = () => {
   return (
     <ContentContainer id="publications">
       {" "}
-      <div
-        style={{
-          maxWidth: "60%",
-          margin: "0 auto",
-          paddingTop: "2rem",
-          color: "#fff",
-        }}>
+      <div className="body-text">
         <h2>Publications</h2>
 
         <ol style={{ padding: "0 1rem" }}>

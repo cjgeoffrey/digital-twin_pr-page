@@ -18,13 +18,7 @@ const Consortium = () => {
   });
   return (
     <ContentContainer id="consortium">
-      <div
-        style={{
-          maxWidth: "60%",
-          margin: "0 auto",
-          paddingTop: "2rem",
-          color: "#fff",
-        }}>
+      <div className="body-text">
         <div>
           <h2>Consortium</h2>
           <p style={{ lineHeight: "1.5rem" }}>

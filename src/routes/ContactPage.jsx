@@ -4,14 +4,7 @@ import ContentContainer from "../shared/cards/ContentContainer";
 const ContactPage = () => {
   return (
     <ContentContainer id="contact">
-      <div
-        style={{
-          maxWidth: "60%",
-          margin: "0 auto",
-          paddingTop: "2rem",
-          color: "#fff",
-          lineHeight: "2rem",
-        }}>
+      <div className="body-text">
         <h3>Contact Us</h3>
         <address>
           Tampere University,

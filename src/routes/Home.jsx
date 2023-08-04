@@ -10,7 +10,6 @@ const Home = () => {
   return (
     <>
       <div
-        // onScroll={executeScroll}
         id="home"
         style={{
           display: "flex",
